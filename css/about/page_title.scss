@@ -1,0 +1,24 @@
+.page_title {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5vw;
+  h1 {
+    margin-top: 10vw;
+    text-align: center;
+    color: #707070;
+    font-size: 3vw;
+    font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+    letter-spacing: 0.1vw;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 559px) {
+  .page_title {
+    padding-top: 10vw;
+    justify-content: center;
+    padding-left: 0;
+    h1 {
+      font-size: 10vw;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web制作なら「Fhase」</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="img/header/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <!--header-logo-->
+
+      <ul class="pc-header">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html/about.html">About</a></li>
+        <li><a href="html/port.html">Portfolio</a></li>
+        <li><a href="html/blog.html">Blog</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+      <!--pc-header-->
+
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown" />
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html/about.html">About</a></li>
+            <li><a href="html/port.html">Portfolio</a></li>
+            <li><a href="html/blog.html">Blog</a></li>
+            <li><a href="html/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!--nav-drawer-->
+      </div>
+      <!--nav-content-->
+    </header>
+
+    <section class="top_wrap">
+      <section class="top_img">
+        <p>Web制作を行なっております<br />「Fhase」です</p>
+        <!--<img src="img/top/top_haikei.svg" alt="" />-->
+      </section>
+      <!--top_img-->
+
+      <div class="nami_anime">
+        <div class="container"></div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <path id="wave" d="" />
+        </svg>
+      </div>
+
+      <section class="top_service">
+        <h1>Service</h1>
+        <div class="top_service_all">
+          <div class="top_service_design top_service_wrap">
+            <h2>Design</h2>
+            <img src="img/top/service1.svg" alt="" />
+            <p>
+              ヒアリングに基づき、ご要望に沿ったデザインに仕上げます。納期やご予算等様々な条件を考慮し、オリジナル、または数多くあるテンプレートからのお選びも可能です。
+            </p>
+          </div>
+          <div class="top_service_Coding top_service_wrap">
+            <h2>Coding</h2>
+            <img src="img/top/service2.svg" alt="" />
+            <p>
+              デザインに基づきコーディングを行います。クロスブラウザ対応、レスポンシブ対応で作成可能です。静的サイトはもちろんアニメーションの凝った動的サイトまで作成可能です。
+            </p>
+          </div>
+          <div class="top_service_cms top_service_wrap">
+            <h2>CMS</h2>
+            <img src="img/top/service3.svg" alt="" />
+            <p>
+              WordPressを用いた更新性の高いサイトも構築可能です。お客様自身で更新していくことが可能になります。営業情報からブログ記事まで様々なニーズに対応しています。
+            </p>
+          </div>
+        </div>
+        <a href="html/contact.html" class="contact_btn sumafo_only" ontouchstart="">
+          <p>お問い合わせはこちら</p>
+        </a>
+        <!--スマホのみ-->
+      </section>
+      <!--top_service-->
+
+      <section class="pc_only_menu">
+        <a class="border_1" href="html/about.html">About</a>
+        <a class="border_2" href="html/port.html">Portfolio</a>
+        <a class="border_3" href="html/blog.html">Blog</a>
+        <a class="border_4" href="html/contact.html">Contact</a>
+      </section>
+
+      <section class="sumafo_only_menu sumafo_only">
+        <a href="html/about.html" class="menu1"><img src="img/top/menu1.jpg" alt=""/></a>
+        <a href="html/port.html" class="menu2"><img src="img/top/menu2.jpg" alt=""/></a>
+        <a href="html/blog.html" class="menu3"><img src="img/top/menu3.jpg" alt=""/></a>
+      </section>
+      <!--botttom_menu-->
+    </section>
+    <!--top_wrap-->
+
+    <footer>
+      <div class="btn_group">
+        <a href="https://twitter.com/xa_5f/" class="footer_1"><img src="img/footer/footer_1.svg" alt=""/></a>
+        <a href="https://facebook.com/~~~~" class="footer_2"><img src="img/footer/footer_2.svg" alt=""/></a>
+        <a href="html/contact.html" class="footer_3"><img src="img/footer/footer_3.svg" alt=""/></a>
+      </div>
+      <p class="copy_rights">Fhase All rights reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.wavify.js"></script>
+    <script src="js/wave.js"></script>
+  </body>
+</html>

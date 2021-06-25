@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.wpcf7 .wpcf7-form {
+  width: 75vw;
+  margin: 10vw auto 20vw;
+}
+
+.wpcf7 .wpcf7-form p label {
+  color: #707070;
+  font-size: 4vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+}
+
+.wpcf7 .wpcf7-form p label span input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 6vw 0;
+  border: 1px solid #707070;
+  width: 75vw;
+  height: 8vw;
+  font-size: 4vw;
+}
+
+.wpcf7 .wpcf7-form p label textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 6vw 0;
+  border: 1px solid #707070;
+  width: 75vw;
+  height: 50vw;
+  font-size: 4vw;
+}
+
+.wpcf7 .wpcf7-form p span span span {
+  margin-left: 0;
+}
+
+.wpcf7 .wpcf7-form p span span span input {
+  border: 1px solid #707070;
+  width: 5vw;
+  height: 5vw;
+}
+
+.wpcf7 .wpcf7-form p span span span span {
+  color: #707070;
+  font-size: 3vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+}
+
+.wpcf7 .wpcf7-form p .wpcf7-submit {
+  margin-top: 10vw;
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.32);
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  width: 75vw;
+  height: 12.5vw;
+  color: #fff;
+  font-size: 3vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  background-color: #707070;
+}
+
+@media screen and (min-width: 559px) {
+  .wpcf7 .wpcf7-form {
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+  }
+  .wpcf7 .wpcf7-form p label {
+    font-size: 2.5vw;
+  }
+  .wpcf7 .wpcf7-form p label span input {
+    height: 4vw;
+    font-size: 2.5vw;
+  }
+  .wpcf7 .wpcf7-form p label textarea {
+    height: 18vw;
+    font-size: 2.5vw;
+  }
+  .wpcf7 .wpcf7-form p span span span {
+    vertical-align: top;
+  }
+  .wpcf7 .wpcf7-form p span span span input {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .wpcf7 .wpcf7-form p span span span span {
+    font-size: 2.5vw;
+  }
+  .wpcf7 .wpcf7-form p .wpcf7-submit {
+    margin-left: 15vw;
+    width: 45vw;
+    height: 8vw;
+    font-size: 2.5vw;
+  }
+}

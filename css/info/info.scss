@@ -1,0 +1,113 @@
+.wpcf7 {
+  .wpcf7-form {
+    width: 75vw;
+    margin: 10vw auto 20vw;
+    p {
+      label {
+        color: #707070;
+        font-size: 4vw;
+        font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+        letter-spacing: 0.1vw;
+        span {
+          input {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 6vw 0;
+            border: 1px solid #707070;
+            width: 75vw;
+            height: 8vw;
+            font-size: 4vw;
+          }
+        }
+        textarea {
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          margin: 6vw 0;
+          border: 1px solid #707070;
+          width: 75vw;
+          height: 50vw;
+          font-size: 4vw;
+        }
+      }
+      span {
+        span {
+          span {
+            margin-left: 0;
+            input {
+              border: 1px solid #707070;
+              width: 5vw;
+              height: 5vw; //checkbox
+            }
+            span {
+              color: #707070;
+              font-size: 3vw;
+              font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+              letter-spacing: 0.1vw;
+            }
+          }
+        }
+      }
+      .wpcf7-submit {
+        margin-top: 10vw;
+        -webkit-appearance: none;
+        background-color: rgba(0, 0, 0, 0.32);
+        background-image: none;
+        border: none;
+        border-radius: 0;
+        width: 75vw;
+        height: 12.5vw;
+        color: #fff;
+        font-size: 3vw;
+        font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+        letter-spacing: 0.1vw;
+        background-color: #707070;
+        //btn
+      }
+    }
+  }
+}
+@media screen and (min-width: 559px) {
+  .wpcf7 {
+    .wpcf7-form {
+      margin-top: 20vw;
+      margin-bottom: 25vw;
+      p {
+        label {
+          font-size: 2.5vw;
+          span {
+            input {
+              height: 4vw;
+              font-size: 2.5vw;
+            }
+          }
+          textarea {
+            height: 18vw;
+            font-size: 2.5vw;
+          }
+        }
+        span {
+          span {
+            span {
+              vertical-align: top;
+              input {
+                width: 2.5vw;
+                height: 2.5vw;
+              }
+              span {
+                font-size: 2.5vw;
+              }
+            }
+          }
+        }
+        .wpcf7-submit {
+          margin-left: 15vw;
+          width: 45vw;
+          height: 8vw;
+          font-size: 2.5vw;
+        }
+      }
+    }
+  }
+}

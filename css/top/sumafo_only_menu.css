@@ -1,0 +1,22 @@
+.sumafo_only_menu {
+  display: none;
+}
+
+@media screen and (max-width: 559px) {
+  .sumafo_only_menu {
+    position: relative;
+    z-index: 100;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 25vw;
+  }
+  .sumafo_only_menu a {
+    width: 100vw;
+  }
+  .sumafo_only_menu a img {
+    width: 100%;
+    display: block;
+  }
+}

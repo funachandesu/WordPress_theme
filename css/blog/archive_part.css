@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.blog_wrap {
+  display: flex;
+  margin-top: 10vw;
+  flex-wrap: wrap;
+}
+
+.blog_wrap .archive_part {
+  display: flex;
+  width: 57vw;
+  flex-wrap: wrap;
+}
+
+.blog_wrap .archive_part .archive_part_wrap {
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+  padding-bottom: 3vw;
+  border: 1px solid #707070;
+  width: 23vw;
+  height: 35vw;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_img {
+  margin-bottom: 1vw;
+  width: 23vw;
+  height: 14vw;
+  overflow: hidden;
+  padding: 0;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_category {
+  display: inline;
+  padding: 0;
+  padding-left: 1vw;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_category a {
+  font-size: 1vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #707070;
+  text-decoration: none;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .ymd {
+  display: inline;
+  padding: 0;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .ymd a {
+  margin-left: 9vw;
+  font-size: 1vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #707070;
+  text-decoration: none;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_title {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_title a {
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 0.2vw;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_title a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .archive_kiji_wrap {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #707070;
+  word-wrap: break-word;
+}
+
+.blog_wrap .archive_part .archive_part_wrap .blog_page_kiji {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #707070;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog_wrap .archive_part .archive_part_wrap p {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #707070;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pagenation {
+  width: 40vw;
+  margin: 5vw auto;
+  text-align: center;
+}
+
+.pagenation .page-numbers {
+  padding: 3vw 1vw;
+  color: #707070;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 559px) {
+  .blog_wrap {
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 10vw;
+    align-items: center;
+  }
+  .blog_wrap .archive_part {
+    flex-direction: column;
+    width: 61vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap {
+    margin-left: 0;
+    width: 61vw;
+    height: 100vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_img {
+    margin-bottom: 3vw;
+    width: 61vw;
+    height: 41vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_category {
+    padding-left: 3vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_category a {
+    font-size: 3vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .ymd a {
+    margin-left: 24vw;
+    font-size: 3vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_title {
+    padding-left: 3vw;
+    padding-top: 2vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_title a {
+    font-size: 5vw;
+    line-height: 8vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .archive_kiji_wrap {
+    padding-left: 3vw;
+    padding-top: 4vw;
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap .blog_page_kiji {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  .blog_wrap .archive_part .archive_part_wrap p {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+}

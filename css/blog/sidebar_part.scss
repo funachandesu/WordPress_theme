@@ -1,0 +1,190 @@
+.sidebar_part {
+  width: 30%;
+  margin-left: 8vw;
+
+  .sidebar_cate,
+  .widget_categories {
+    //カテゴリー
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #707070;
+    width: 30vw;
+
+    div {
+      margin-top: 2.5vw;
+      margin-bottom: 3vw;
+      font-size: 2vw;
+      font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+      letter-spacing: 0.1vw;
+      color: #707070;
+      //text-decoration: none;
+    }
+
+    ul {
+      margin-top: 2vw;
+      list-style: none;
+
+      li {
+        margin-bottom: 2vw;
+
+        a {
+          font-size: 2vw;
+          font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+          letter-spacing: 0.1vw;
+          color: #707070;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .sidebar_cate,
+  .recent-posts-extended {
+    //最新の投稿
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #707070;
+    width: 30vw;
+
+    div {
+      margin-top: 2.5vw;
+      margin-bottom: 3vw;
+      font-size: 2vw;
+      font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+      letter-spacing: 0.1vw;
+      color: #707070;
+      //text-decoration: none;
+    }
+
+    .rpwe-block {
+      ul {
+        margin-top: 2vw;
+        list-style: none;
+
+        li {
+          margin-bottom: 2vw;
+          display: flex;
+          flex-wrap: wrap;
+
+          a {
+            width: 5vw;
+            margin: 1vw 2vw 1vw 1vw;
+            font-size: 2vw;
+            font-family: "筑紫B丸ゴシック", "Noto Sans JP", sans-serif;
+            letter-spacing: 0.1vw;
+            color: #707070;
+            text-decoration: none;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .rpwe-title {
+            width: 20vw;
+            margin-top: 1vw !important;
+
+            a {
+              font-size: 1.5vw;
+            }
+          }
+
+          time {
+            margin-top: -2vw;
+            margin-left: 20vw;
+            font-size: 1vw;
+            color: #707070;
+          }
+        }
+      }
+    }
+  }
+
+  .widget_custom_html {
+    height: 20vw;
+    overflow: scroll;
+
+    .widget-title {
+      font-size: 0;
+      margin-bottom: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .sidebar_part {
+    width: 61vw;
+    margin-left: 0;
+    margin-top: 15vw;
+
+    .sidebar_cate,
+    .widget_categories {
+      width: 100%;
+      padding-bottom: 3vw;
+
+      div {
+        font-size: 4vw;
+      }
+
+      ul {
+        li {
+          margin-top: 3vw;
+
+          a {
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+
+    .sidebar_cate,
+    .recent-posts-extended {
+      //最新の投稿
+      width: 100%;
+      border-top: none;
+
+      .widget-title {
+        font-size: 4vw;
+      }
+
+      .rpwe-block {
+        width: 100%;
+
+        .rpwe-ul {
+          .rpwe-li {
+            a {
+              width: 10vw;
+              margin-left: 2vw;
+              margin-top: 4vw;
+
+              img {
+                width: 10vw;
+              }
+            }
+
+            h3 {
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 4vw !important;
+
+              a {
+                font-size: 3vw;
+              }
+            }
+
+            time {
+              font-size: 2vw;
+              margin-left: 40vw;
+            }
+          }
+        }
+      }
+    }
+
+    .widget_custom_html {
+      height: 50vh;
+    }
+  }
+}
